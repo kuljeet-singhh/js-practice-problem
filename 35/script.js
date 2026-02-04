@@ -18,7 +18,7 @@ function csv (data){
  let string= JSON.stringify(data)
  
  let result=string.split("\\n")
- //console.log(result)
+ console.log(result)
  for(let i=0;i<result.length;i++){
    // console.log(result[i])
     result[i]=result[i].split(";")
